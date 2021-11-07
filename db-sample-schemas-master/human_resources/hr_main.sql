@@ -70,7 +70,7 @@ REM will succeed regardless of the existence of the
 REM DEMO and TEMP tablespaces 
 REM =======================================================
 
-CREATE USER hr IDENTIFIED BY OacAdw2021_;
+CREATE USER hr IDENTIFIED BY OacAdw2021_$;
 
 ALTER USER hr DEFAULT TABLESPACE DATA
               QUOTA UNLIMITED ON DATA;
